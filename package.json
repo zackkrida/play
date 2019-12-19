@@ -1,10 +1,24 @@
 {
   "name": "play",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "zackkrida",
   "license": "MIT",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel serve index.html"
+  },
   "dependencies": {
-    "xstate": "^4.7.3"
+    "preact": "^10.1.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.7.7",
+    "@babel/preset-typescript": "^7.7.7",
+    "@types/react": "^16.9.16",
+    "parcel": "^2.0.0-alpha.3.2",
+    "typescript": "^3.7.3"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "semi": false
   }
 }
