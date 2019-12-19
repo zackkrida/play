@@ -1,0 +1,10 @@
+{
+  "name": "play",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "zackkrida",
+  "license": "MIT",
+  "dependencies": {
+    "xstate": "^4.7.3"
+  }
+}
